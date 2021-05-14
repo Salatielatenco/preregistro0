@@ -1,0 +1,12 @@
+
+
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="js/alertifyjs/css/themes/default.css">
+<link rel="stylesheet" type="text/css" href="js/alertifyjs/css/alertify.css">
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/alertifyjs/alertify.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/middleBodyMain/lightbox.min.css" />
+<script type="text/javascript" src="js/middleBodyMain/lightbox-plus-jquery.min.js"></script>

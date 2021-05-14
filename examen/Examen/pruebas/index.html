@@ -1,0 +1,893 @@
+<html>
+    <head>
+        <title>
+            PAGINA TEC
+        </title>
+        <link rel="stylesheet" href="../css/main.css" type="text/css" media="screen"/>
+        <style>
+            @font-face {
+            font-family: "Give You What You Like";
+            src: url(../fonts/GiveYouWhatYouLike.ttf) format("truetype");
+            }
+        </style>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <!--<meta http-equiv="refresh" content="5" /> esta linea recarga la pagina-->
+        
+	    <script language="javascript">
+            alert("Bienvenido a la Autoevaluacion correspondiente al ingreso al ITMA II \n\nSeleccione las respuestas que crea correctas, teniendo en "+"\ncuenta las siguientes consideraciones \n\n1. Los aciertos tienen el valor de un punto"+" \n\n2. Las respuestas no contestadas ni suman ni restan puntos.")
+            function cont() {
+                var c=0;
+                if (document.forms['evaluacion']['radio1'][0].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio2'][2].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio3'][3].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio4'][2].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio5'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio6'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio7'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio8'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio9'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio10'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio11'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio12'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio13'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio14'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio15'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio16'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio17'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio18'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio19'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio20'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio21'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio22'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio23'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio24'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio25'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio26'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio27'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio28'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio29'][1].checked)
+                {
+                    c++;
+                }
+                if (document.forms['evaluacion']['radio30'][1].checked)
+                {
+                    c++;
+                }
+                    alert('Tu resultado es ' + c + ' de 30 preguntas');
+                
+                var nombre=document.forms.evaluacion.nombre.value;
+                var correo=document.forms.evaluacion.correo.value;
+                var mensaje=document.forms.evaluacion.mensaje.value;
+                var resultado= c;
+                window.location="guardar.php?res="+resultado+"&nom="+nombre+"&cor="+correo+"&men="+mensaje;
+            }
+        </script>
+    </head>
+    <body id="body">
+        <header id="header">
+        </header>
+        <form name="evaluacion"  method="">
+            <caja>
+            <br><br><label>RAZONAMIENTOS</label><br><br>
+            <label>1. </label>
+            <label>¿Cuál es el sinónimo de DELACIÓN?</label>
+            <p>
+                <input type="radio" name="radio1" id="radio1" /><label>a. Retención</label><br/>
+                <input type="radio" name="radio1" id="radio1" /><label>b. Cuidado</label><br/>
+                <input type="radio" name="radio1" id="radio1" /><label>c. Acusación</label><br/>
+                <input type="radio" name="radio1" id="radio1" /><label>d. Discreción</label><br>
+                <input type="radio" name="radio1" id="radio1" /><label>e. Omisión</label>
+                <br/>
+            </p>
+            
+            <hr/>
+            
+            <label>2. </label>
+            <label>Escoja el par de palabras que presente una relación semejante a:
+LÍNEAS - FIGURA</label>
+            <p>
+                <input type="radio" name="radio2" id="radio2" /><label>a. ESTRELLAS - SISTEMA</label><br/>
+                <input type="radio" name="radio2" id="radio2" /><label>b. NÓRDICO - PAÍS</label><br/>
+                <input type="radio" name="radio2" id="radio2" /><label>c. LUNA - SOL</label><br/>
+                <input type="radio" name="radio2" id="radio2" /><label>d. HILOS - RED</label><br/>
+                <input type="radio" name="radio2" id="radio2" /><label>e. MAPAS - ASTRONOMÍA</label><br/>
+            </p>
+            <hr/>
+            <label>3. </label>
+            <label>Señale la opción que ordena las siguientes palabras en una frase imperativa</label><br>
+            <label>&nbsp;&nbsp;&nbsp;&nbsp;baja<sup>1</sup> y<sup>2</sup> aquel<sup>3</sup> manzana<sup>4</sup> a<sup>5</sup> sube<sup>6</sup> árbol<sup>7</sup> una<sup>8</sup></label>
+            <p>
+                <input type="radio" name="radio3" id="radio3" /><label>a.  1, 5, 3, 7, 8, 4, 2, 6</label><br/>
+                <input type="radio" name="radio3" id="radio3" /><label>b.  8, 4, 3, 7, 6, 2, 1, 5</label><br/>
+                <input type="radio" name="radio3" id="radio3" /><label>c. 1, 8, 4, 2, 6, 3, 7, 5</label><br/>
+                <input type="radio" name="radio3" id="radio3" /><label>d. 6, 8, 4, 2, 1, 3, 5, 7</label><br/>
+                <input type="radio" name="radio3" id="radio3" /><label>e. 6, 5, 3, 7, 2, 1, 8, 4
+</label><br/>
+            </p>
+            <hr/>
+            <label>4. </label>
+            <label>Jalil es árabe y afirma que todos los árabes mienten. En consecuencia:<br>&nbsp;&nbsp;&nbsp;&nbsp;1. Jalil miente si dice la verdad.<br>&nbsp;&nbsp;&nbsp;&nbsp;2. Luego, Jalil _______________</label>
+            <p>
+                <input type="radio" name="radio4" id="radio4" /><label>a. nunca miente</label><br/> 
+                <input type="radio" name="radio4" id="radio4" /><label>b. siempre dice la verdad</label><br/>
+                <input type="radio" name="radio4" id="radio4" /><label>c. sólo dice la verdad cuando no miente</label><br/>
+                <input type="radio" name="radio4" id="radio4" /><label>d. dice la verdad si miente</label><br/>
+                <input type="radio" name="radio4" id="radio4" /><label>e. sólo dice mentiras cuando no dice la verdad</label><br/>
+            </p>
+            <hr/>
+            <label>5. </label>
+            <label>Complete la siguiente afirmación.<br>&nbsp;&nbsp;&nbsp;&nbsp;El hecho de estar en ______ no es para ponerse ________.</label>
+            <p>
+                <input type="radio" name="radio5" id="radio5"/><label>a. espera - vigilante</label><br/>
+                <input type="radio" name="radio5" id="radio5"/><label>b. riesgo - tenso</label><br/>
+                <input type="radio" name="radio5" id="radio5"/><label>c. pausa - sereno</label><br/>
+                <input type="radio" name="radio5" id="radio5"/><label>d. peligro - jubiloso</label><br/>
+                <input type="radio" name="radio5" id="radio5"/><label>e. desgracia - agitado</label><br/>
+            </p>
+            <hr/>
+            <label>6. </label>
+            <label>Escoja el par de palabras que presente una relación semejante a: ALBAÑIL - PARED</label>
+            <p>
+                <input type="radio" name="radio6" id="radio6"/><label>a. máquina - engrane</label><br/>
+                <input type="radio" name="radio6" id="radio6"/><label>b. carpintero - mueble</label><br/>
+                <input type="radio" name="radio6" id="radio6"/><label>c. montacargas - almacén</label><br/>
+                <input type="radio" name="radio6" id="radio6"/><label>d. agricultor - campo</label><br/>
+                <input type="radio" name="radio6" id="radio6"/><label>e. locutor - anuncio </label><br/>
+            </p>
+            <hr/>
+            <label>7. </label>
+            <label>Complete la siguiente afirmación.<br>&nbsp;&nbsp;&nbsp;&nbsp;Trabajar y perseverar son _________ que permiten al hombre conseguir lo que se propone.</label>
+            <p>
+                <input type="radio" name="radio7" id="radio7"/><label>a. potencialidades</label><br/>
+                <input type="radio" name="radio7" id="radio7"/><label>b. actividades</label><br/>
+                <input type="radio" name="radio7" id="radio7"/><label>c. capacidades</label><br/>
+                <input type="radio" name="radio7" id="radio7"/><label>d. actitudes</label><br/>
+                <input type="radio" name="radio7" id="radio7"/><label>e. funciones</label><br/>
+            </p>
+            <hr/>
+            <label>8. </label>
+            <label>¿Cuál de las siguientes afirmaciones pudiera considerarse como una opinión y no como un hecho?</label>
+            <p>
+                <input type="radio" name="radio8" id="radio8"/><label>a. El dinero cada día alcanza menos para adquirir lo indispensable</label><br/>
+                <input type="radio" name="radio8" id="radio8"/><label>b. Los responsables de la política económica de hoy son menos capaces que los de antes</label><br/>
+                <input type="radio" name="radio8" id="radio8"/><label>c. Tanto la cantidad como la velocidad de la información crecen cada día</label><br/>
+                <input type="radio" name="radio8" id="radio8"/><label>d. Los automóviles que circulan por las grandes ciudades integran tecnologías cada día más avanzadas</label><br/>
+                <input type="radio" name="radio8" id="radio8"/><label>e. La República Mexicana tiene una extensión de casi dos millones de kilómetros cuadrados</label><br/>
+            </p>
+            <hr/>
+            <label>9. </label>
+            <label>Cuando comentamos: <em>Los exámenes son regalados</em> hacemos referencia a que nos resultan accesibles. <br> &nbsp;&nbsp;&nbsp;&nbsp;Entonces, si esto fuera un examen sería necesariamente ____________.</label>
+            <p>
+                <input type="radio" name="radio9" id="radio9"/><label>a. fácil</label><br/>
+                <input type="radio" name="radio9" id="radio9"/><label>b. un don</label><br/>
+                <input type="radio" name="radio9" id="radio9"/><label>c. gratuito</label><br/>
+                <input type="radio" name="radio9" id="radio9"/><label>d. una dádiva</label><br/>
+                <input type="radio" name="radio9" id="radio9"/><label>e. un presente</label><br/>
+            </p>
+            <hr/>
+            <label>10. </label>
+            <label>Complete el siguiente razonamiento. ______________________ <br>&nbsp;&nbsp;&nbsp;&nbsp;Rex es perro; luego, Rex es cuadrúpedo.</label>
+            <p>
+                <input type="radio" name="radio10" id="radio10"/><label>a.  Ser cuadrúpedo es una característica sólo de los perros</label><br/>
+                <input type="radio" name="radio10" id="radio10"/><label>b. Hay muchos perros que son cuadrúpedos</label><br/>
+                <input type="radio" name="radio10" id="radio10"/><label>c.  Los cuadrúpedos son perros</label><br/>
+                <input type="radio" name="radio10" id="radio10"/><label>d. Algunos perros son cuadrúpedos</label><br/>
+                <input type="radio" name="radio10" id="radio10"/><label>e. Todos los perros son cuadrúpedos</label><br/>
+            </p>
+            <hr/>
+            <label>11. </label>
+            <label>Elija la opción que ordena los siguientes términos para formar una expresión coherente y correcta.<br>&nbsp;&nbsp;&nbsp;&nbsp;E<sup>1</sup> Y<sup>2</sup> EL<sup>3</sup> HACIA<sup>4</sup> IMPIDEN<sup>5</sup> IMPUNIDAD<sup>6</sup> PAZ<sup>7</sup> CORRUPCIÓN<sup>8</sup> EQUIDAD<sup>9</sup> TRÁNSITO<sup>10</sup></label>
+            <p>
+                <input type="radio" name="radio11" id="radio11"/><label>a. 9, 2, 8, 5, 3, 10, 4, 7, 1, 6</label><br/>
+                <input type="radio" name="radio11" id="radio11"/><label>b. 6, 2, 8, 5, 3, 10, 4, 9, 1, 7</label><br/>
+                <input type="radio" name="radio11" id="radio11"/><label>c. 8, 10, 4, 3, 9, 2, 5, 7, 1, 6</label><br/>
+                <input type="radio" name="radio11" id="radio11"/><label>d. 5, 6, 7, 8, 2, 9, 3, 10, 4, 1</label><br/>
+                <input type="radio" name="radio11" id="radio11"/><label>e.  8, 1, 6, 5, 3, 10, 4, 7, 2, 9</label><br/>
+            </p>
+            <hr/>
+            <label>12. </label>
+            <label>Seleccione la opción que proponga un texto coherente a partir de las siguientes frases.<br>&nbsp;&nbsp;&nbsp;&nbsp;1. La cabeza reducida o tsantsa era un gran trofeo.<br>&nbsp;&nbsp;&nbsp;&nbsp;2. Las arrancaban de sus adversarios muertos en combate.<br>&nbsp;&nbsp;&nbsp;&nbsp;3. Para el guerrero que había derrotado a su contrincante.<br>&nbsp;&nbsp;&nbsp;&nbsp;4. Los jíbaros reducían las cabezas de sus enemigos.<br>&nbsp;&nbsp;&nbsp;&nbsp;5. El hechicero de la tribu dirigía una pomposa ceremonia.</label>
+            <p>
+                <input type="radio" name="radio12" id="radio12"/><label>a. 2, 4, 5, 3, 1</label><br/>
+                <input type="radio" name="radio12" id="radio12"/><label>b. 4, 2, 5, 1, 3</label><br/>
+                <input type="radio" name="radio12" id="radio12"/><label>c. 1, 4, 5, 3, 2</label><br/>
+                <input type="radio" name="radio12" id="radio12"/><label>d. 3, 4, 1, 2, 5</label><br/>
+                <input type="radio" name="radio12" id="radio12"/><label>e. 5, 2, 4, 1, 3</label><br/>
+            </p>
+            <hr/>
+            <label>13. </label>
+            <label>Son ciudadanos de la República los varones y las mujeres que, ________ la calidad de mexicanos, ________, además, los ________ de haber cumplido 18 años y tener un modo honesto de vivir.</label>
+            <p>
+                <input type="radio" name="radio13" id="radio13"/><label>a. reuniendo - gocen - privilegios</label><br/>
+                <input type="radio" name="radio13" id="radio13"/><label>b. gozando - conserven - criterios</label><br/>
+                <input type="radio" name="radio13" id="radio13"/><label>c. con - adquieran - requerimientos</label><br/>
+                <input type="radio" name="radio13" id="radio13"/><label>d. teniendo - reúnan - requisitos</label><br/>
+                <input type="radio" name="radio13" id="radio13"/><label>e. supuesta - integren - postulados</label><br/>
+            </p>
+            <hr/>
+            <label>14 </label>
+            <label>La afirmación: <i>la superación personal debe ser siempre una constante</i> implica que:</label>
+            <p>
+                <input type="radio" name="radio14" id="radio14"/><label>a. el aprovechamiento de las oportunidades se da por el deseo de obtenerlas</label><br/>
+                <input type="radio" name="radio14" id="radio14"/><label>b. hay que ser persistente con la idea de tener buena suerte</label><br/>
+                <input type="radio" name="radio14" id="radio14"/><label>c. el aprovechamiento de la victoria es el anhelo sólo de algunos</label><br/>
+                <input type="radio" name="radio14" id="radio14"/><label>d. hay que trabajar cotidianamente para llegar a obtener éxito</label><br/>
+                <input type="radio" name="radio14" id="radio14"/><label>e. hay que luchar contra quienes se interpongan en nuestro progreso</label><br/>
+            </p>
+            <hr/>
+            <label>15. </label>
+            <label>Sin cambiar su sentido original, seleccione la forma afirmativa de la siguiente frase: <em>Al no desatender</em></label>
+            <p>
+                <input type="radio" name="radio15" id="radio15"/><label>a. Al no estar atendido</label><br/>
+                <input type="radio" name="radio15" id="radio15"/><label>b. Al vigilar</label><br/>
+                <input type="radio" name="radio15" id="radio15"/><label>c. Al no vigilar</label><br/>
+                <input type="radio" name="radio15" id="radio15"/><label>d. Al carecer de asistencia</label><br/>
+                <input type="radio" name="radio15" id="radio15"/><label>e. Al saber que descuida</label><br/>
+            </p>
+            <hr/>
+            <label><strong>Lea el siguiente texto y conteste las preguntas 16 y 17. </strong><br><br>El psicólogo Howard Gardner es quien mejor ha determinado una teoría reciente sobre cómo, cuándo y dónde se produce el desarrollo de la inteligencia humana. Sorprendería sobremanera a todas aquellas personas músicos y no músicos, la influencia que tiene la música de manifestar su naturaleza en el  desarrollo de las inteligencias múltiples. Una primera inteligencia lingüística que consiste en la capacidad de procesar palabras, una segunda inteligencia lógico-matemática, aquella herramienta que sirve para calcular, medir y efectuar operaciones de índole matemático-racional. La tercera sería la espacial, aquella que consiste en la capacidad de asumir las distintas dimensiones. En cuarto lugar la inteligencia corporal cinestésica, manipulación de objetos y estructuras. En quinto, sexto y séptimo lugar las inteligencias interpersonal, intrapersonal y naturalista, que corresponden a la empatía con los demás, la capacidad de una persona de tener una idea propia y precisa de quién es y la capacidad para observar los modelos de la Naturaleza, respectivamente. Y para terminar, la inteligencia musical, aquel tipo de inteligencia que sirve para expresar equilibrio y belleza sonora. Pocas veces los músicos hemos compartido semejante protagonismo existencial.<br><br></label>
+            
+            <label>16. </label>
+            <label>De la lectura del texto se puede concluir que:</label>
+            <p>
+                <input type="radio" name="radio16" id="radio16"/><label>a. la inteligencia humana sólo ha sido estudiada recientemente</label><br/>
+                <input type="radio" name="radio16" id="radio16"/><label>b. los distintos tipos de inteligencia se desarrollan en orden cronológico</label><br/>
+                <input type="radio" name="radio16" id="radio16"/><label>c. la musical es una de las múltiples inteligencias</label><br/>
+                <input type="radio" name="radio16" id="radio16"/><label>d. la música contribuye a desarrollar inteligencias múltiples</label><br/>
+                <input type="radio" name="radio16" id="radio16"/><label>e. la inteligencia musical se desarrolla posteriormente a las demás</label><br/>
+            </p>
+            <hr/>
+            <label>17. </label>
+            <label>El contenido del texto permite fundamentar la siguiente afirmación:</label>
+            <p>
+                <input type="radio" name="radio17" id="radio17"/><label>a. el autor se congratula de que la aptitud musical se incluya entre las inteligencias</label><br/>
+                <input type="radio" name="radio17" id="radio17"/><label>b. el autor está a favor de la educación musical</label><br/>
+                <input type="radio" name="radio17" id="radio17"/><label>c. Howard Gardner es músico y psicólogo</label><br/>
+                <input type="radio" name="radio17" id="radio17"/><label>d. una persona con una idea clara de sí misma tiene mejores relaciones interpersonales</label><br/>
+                <input type="radio" name="radio17" id="radio17"/><label>e. la música compartida constituye un protagonismo existencial</label><br/>
+            </p>
+            <hr/>
+            <label>18. </label>
+            <label>Algunos mamíferos son animales herbívoros. <br>&nbsp;&nbsp;&nbsp;&nbsp;Ningún animal herbívoro come carne; luego, ____________________ .</label>
+            <p>
+                <input type="radio" name="radio18" id="radio18"/><label>a. algunos animales mamíferos no comen carne</label><br/>
+                <input type="radio" name="radio18" id="radio18"/><label>b. ningún animal mamífero come carne</label><br/>
+                <input type="radio" name="radio18" id="radio18"/><label>c. algunos animales mamíferos no son herbívoros</label><br/>
+                <input type="radio" name="radio18" id="radio18"/><label>d. todo animal que come carne es mamífero</label><br/>
+                <input type="radio" name="radio18" id="radio18"/><label>e. los animales herbívoros no son mamíferos</label><br/>
+            </p>
+            <hr/>
+            <label>19. </label>
+            <label>Seleccione el refrán que se aplica a la situación planteada.<br>&nbsp;&nbsp;&nbsp;&nbsp; Un día un hombre gastó todos sus ahorros en comprar cinco billetes de lotería. Regresó a su casa y le dijo a su esposa: “Uno de éstos debe ganar un premio”. Ella, molesta, le contestó:</label>
+            <p>
+                <input type="radio" name="radio19" id="radio19"/><label>a. El que a hierro mata, a hierro muere</label><br/>
+                <input type="radio" name="radio19" id="radio19"/><label>b. Zapatero a tus zapatos</label><br/>
+                <input type="radio" name="radio19" id="radio19"/><label>c. Tiene un piojo en la cabeza y se siente ganadero</label><br/>
+                <input type="radio" name="radio19" id="radio19"/><label>d. No se puede chiflar y comer pinole</label><br/>
+                <input type="radio" name="radio19" id="radio19"/><label>e. Más vale pájaro en mano que ciento volando</label><br/>
+            </p>
+            <hr/>
+            <label>20. </label>
+            <label>Complete el siguiente razonamiento.<br>&nbsp;&nbsp;&nbsp;&nbsp;Más de un político es miserable.<br>&nbsp;&nbsp;&nbsp;&nbsp;Todo miserable es limitado.<br>&nbsp;&nbsp;&nbsp;&nbsp;Luego, _____________.</label>
+            <p>
+                <input type="radio" name="radio20" id="radio20"/><label>a. algunos limitados son políticos</label><br/>
+                <input type="radio" name="radio20" id="radio20"/><label>b. todo limitado es miserable</label><br/>
+                <input type="radio" name="radio20" id="radio20"/><label>c. algunos políticos son miserables</label><br/>
+                <input type="radio" name="radio20" id="radio20"/><label>d. todo político es miserable</label><br/>
+                <input type="radio" name="radio20" id="radio20"/><label>e. algunos políticos son limitados</label><br/>
+            </p>
+            <hr/>
+            <label>21. </label>
+            <label>En el siguiente ejemplo, uno de los grupos de letras rompe la regularidad.¿Cuál es?</label>
+            <p>
+                <input type="radio" name="radio21" id="radio21"/><label>a. ACEG</label><br/>
+                <input type="radio" name="radio21" id="radio21"/><label>b. GJMOe</label><br/>
+                <input type="radio" name="radio21" id="radio21"/><label>c. HJLN</label><br/>
+                <input type="radio" name="radio21" id="radio21"/><label>d. PRTV</label><br/>
+                <input type="radio" name="radio21" id="radio21"/><label>e. QSUW</label><br/>
+            </p>
+            <hr/>
+            <label>22. </label>
+            <label>Un barco navega 100 metros en 50 segundos. Un avión supersónico viaja a 1,440 kilómetros por hora. Si ambos tienen rapidez constante, ¿cuántas veces es más rápido el avión que el barco?</label>
+            <p>
+                <input type="radio" name="radio22" id="radio22"/><label>a. 200</label><br/>
+                <input type="radio" name="radio22" id="radio22"/><label>b. 720</label><br/>
+                <input type="radio" name="radio22" id="radio22"/><label>c. 800</label><br/>
+                <input type="radio" name="radio22" id="radio22"/><label>d. 1440</label><br/>
+                <input type="radio" name="radio22" id="radio22"/><label>e. 28.8</label><br/>
+            </p>
+            <hr/>
+            <label>23. </label>
+            <label>Si A es igual a dos tercios de B y A = 36, ¿cuál es el valor de B?</label>
+            <p>
+                <input type="radio" name="radio23" id="radio23"/><label>a. 24</label><br/>
+                <input type="radio" name="radio23" id="radio23"/><label>b. 48</label><br/>
+                <input type="radio" name="radio23" id="radio23"/><label>c. 54</label><br/>
+                <input type="radio" name="radio23" id="radio23"/><label>d. 72</label><br/>
+                <input type="radio" name="radio23" id="radio23"/><label>e. 108</label><br/>
+            </p>
+            <hr/>
+            <label>24. </label>
+            <label> Seleccione la opción que contiene la figura que completa la segunda serie.</label><div id="ejercicio"></div>
+                <caj class="ejemplo">
+                  
+                    <input type="radio" name="radio24" id="radioimagen"/> <caja id="ejercicio2"> </caja>
+                    <input type="radio" name="radio24" id="radioimagen"/><caja id="ejercicio3"></caja>
+                    <input type="radio" name="radio24" id="radioimagen"/><caja id="ejercicio4"></caja>
+                    <input type="radio" name="radio24" id="radioimagen"/><caja id="ejercicio5"></caja>
+                    <input type="radio" name="radio24" id="radioimagen"/><caja id="ejercicio6"></caja>
+                </caj>
+            <hr/>
+            <label>25. </label>
+            <label>Una balanza está en equilibrio si se pone una pastilla de jabón en uno de sus platillos y en el otro se colocan 2/3 de una pastilla igual y una pesa de 2/3 de kilo. Si x representa el peso de una pastilla, ¿cómo debe plantearse el problema para encontrar el valor de x?</label>
+            <p>
+                <input type="radio" name="radio25" id="radioimagen2"/><caja id="ejercicio7"></caja><br/>
+                <input type="radio" name="radio25" id="radioimagen2"/><caja id="ejercicio8"></caja><br/>
+                <input type="radio" name="radio25" id="radioimagen2"/><caja id="ejercicio9"></caja><br/>
+                <input type="radio" name="radio25" id="radioimagen2"/><caja id="ejercicio10"></caja><br/>
+                <input type="radio" name="radio25" id="radioimagen2"/><caja id="ejercicio11"></caja><br/>
+            </p>
+            <hr/>
+            <label>26. </label>
+            <label>Si llamamos <b>D</b> al dividendo, <strong>Q</strong> al cociente, <b>b</b> al divisor y <b>R</b> al residuo, la expresión: <br>&nbsp;&nbsp;&nbsp;&nbsp;<strong>D = dQ + R </strong><br>&nbsp;&nbsp;&nbsp;&nbsp;sólo es verdadera si:</label>
+            <p>
+                <input type="radio" name="radio26" id="radio23"/><label>a. d &lt; R</label><br/>
+                <input type="radio" name="radio26" id="radio23"/><label>b. d &gt; D</label><br/>
+                <input type="radio" name="radio26" id="radio23"/><label>c. Q &lt; R</label><br/>
+                <input type="radio" name="radio26" id="radio23"/><label>d. R &lt; d</label><br/>
+                <input type="radio" name="radio26" id="radio23"/><label>e. R &#61; d</label><br/>
+            </p>
+            <hr/>
+            <label>27. </label>
+            <label>Señale el número que da continuidad a la serie: 2, 8, 12, 48, 52...</label>
+            <p>
+                <input type="radio" name="radio27" id="radio23"/><label>a. 55</label><br/>
+                <input type="radio" name="radio27" id="radio23"/><label>b. 59</label><br/>
+                <input type="radio" name="radio27" id="radio23"/><label>c. 104</label><br/>
+                <input type="radio" name="radio27" id="radio23"/><label>d. 204</label><br/>
+                <input type="radio" name="radio27" id="radio23"/><label>e. 208</label><br/>
+            </p>
+            <hr/>
+            <label>28. </label>
+            <label>Observe las siguientes figuras y escoja la opción que las ordena.</label>
+            <br><br><div id="ejercicio12"></div>
+            <p>
+                <input type="radio" name="radio28" id="radio23"/><label>a. 3, 2, 5, 1, 4</label><br/>
+                <input type="radio" name="radio28" id="radio23"/><label>b. 1, 4, 2, 5, 3</label><br/>
+                <input type="radio" name="radio28" id="radio23"/><label>c. 4, 1, 2, 5, 3</label><br/>
+                <input type="radio" name="radio28" id="radio23"/><label>d. 1, 4, 5, 3, 2</label><br/>
+                <input type="radio" name="radio28" id="radio23"/><label>e. 3, 5, 1, 2, 4</label><br/>
+            </p>
+            <hr/>
+            <label>29. </label>
+            <label>Un equipo de voleibol lleva perdidos ocho de 22 partidos jugados. Si gana los siguientes seis, ¿cuál será su porcentaje final de victorias?</label>
+            <p>
+                <input type="radio" name="radio29" id="radio23"/><label>a. 28.57</label><br/>
+                <input type="radio" name="radio29" id="radio23"/><label>b. 51.85</label><br/>
+                <input type="radio" name="radio29" id="radio23"/><label>c. 63.63</label><br/>
+                <input type="radio" name="radio29" id="radio23"/><label>d. 69.17</label><br/>
+                <input type="radio" name="radio29" id="radio23"/><label>e. 71.43</label><br/>
+            </p>
+            <hr/>
+            <label>30. </label>
+            <label>¿En qué lugar de la recta numérica queda el punto que representa al número 52/47? Entre:</label>
+            <br><br><div id="ejercicio13"></div>
+            <p>
+                <input type="radio" name="radio30" id="radio23"/><label>a. P y Q</label><br/>
+                <input type="radio" name="radio30" id="radio23"/><label>b. Q y R</label><br/>
+                <input type="radio" name="radio30" id="radio23"/><label>c. R y S</label><br/>
+                <input type="radio" name="radio30" id="radio23"/><label>d. S y T</label><br/>
+                <input type="radio" name="radio30" id="radio23"/><label>e. T y U</label><br/>
+            </p>
+            <hr/>
+                
+                
+                
+             <label>31. </label>
+            <label>Escoja la serie o grupo de figuras que satisface las siguientes cuatro condiciones:<br> 
+                1. Una de las siguientes figuras:&#9827;&#9827;&#9830;@ pertenece a esa serie y está en su lugar. Tres no pertenecen a la serie 
+            <br>    2. De éstas @&#9827;@&#9829; , una figura pertenece a la serie pero no está en su lugar. Otra sí está en su lugar y las otras dos no pertenecen a la serie 
+            <br>    3. De  &#9827;&#9824;@&#9830; ,dos figuras pertenecen al grupo y están en su lugar. Dos figuras no pertenecen al grupo o serie. 
+            <br>    4. Del grupo &#9829;&#9827;@&#9827; ,dos figuras pertenecen a la serie buscada pero no están en su lugar. Dos figuras no pertenecen a ella.     </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio31" id="radio23"/><label>a.&#9827;&#9829;&#9824;&#9830;</label><br/>
+                <input type="radio" name="radio31" id="radio23"/><label>b.&#9824;&#9827;&#9830;&#9830;</label><br/>
+                <input type="radio" name="radio31" id="radio23"/><label>c.&#9829;&#9827;@&#9827;</label><br/>
+                <input type="radio" name="radio31" id="radio23"/><label>d.&#9827;&#9824;&#9824;&#9829;</label><br/>
+                <input type="radio" name="radio31" id="radio23"/><label>e.&#9830;&#9824;@@</label><br/>
+            </p>
+            <hr/>
+                
+            <label>32. </label>
+            <label>Analice los dos conjuntos de números y seleccione la opción que corresponda: <br>
+                {426, 224, 437, 415, 235, 527, 279, 145, 347}<br> {248, 339, 224, 122, 133, 515, 428, 326, 700} </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio32" id="radio23"/><label>a.La tercera cifra de cada uno de los números del segundo conjunto es el producto de las dos anteriores</label><br/>
+                <input type="radio" name="radio32" id="radio23"/><label>b.Los números del segundo conjunto son primos, los del primero n</label><br/>
+                <input type="radio" name="radio32" id="radio23"/><label>c. Los números del primer conjunto son primos, los del segundo no </label><br/>
+                <input type="radio" name="radio32" id="radio23"/><label>d. La resta de las dos primeras cifras de cada número del primer conjunto tiene como resultado la tercera cifra </label><br/>
+                <input type="radio" name="radio32" id="radio23"/><label>e.La tercera cifra de cada uno de los números del primer conjunto es el producto de las dos anteriores
+</label><br/>
+            </p>
+            <hr/>    
+                
+                
+                
+            <label>33. </label>
+            <label>¿Cuáles son las edades, en años, de tres amigos, si su suma es 72 y su producto resulta mayor que 13,600? Al mayor de ellos le falta una pierna.</label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio33" id="radio23"/><label>a. 25, 25, 22 </label><br/>
+                <input type="radio" name="radio33" id="radio23"/><label>b. 24, 24, 24</label><br/>
+                <input type="radio" name="radio33" id="radio23"/><label>c. 23, 23, 26 </label><br/>
+                <input type="radio" name="radio33" id="radio23"/><label>d. 22, 22, 28</label><br/>
+                <input type="radio" name="radio33" id="radio23"/><label>e. 18, 24, 30</label><br/>
+            </p>
+            <hr/> 
+                
+            <label>34. </label>
+            <label>¿Cuál es el volumen de un bloque que mide 10 mm de alto, 25 mm de largo y 16 mm de fondo?</label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio34" id="radio23"/><label>a. 4,000 mm3  </label><br/>
+                <input type="radio" name="radio34" id="radio23"/><label>b. 2,600 mm3</label><br/>
+                <input type="radio" name="radio34" id="radio23"/><label>c. 13,125 mm3 </label><br/>
+                <input type="radio" name="radio34" id="radio23"/><label>d. 78,750 mm3</label><br/>
+                <input type="radio" name="radio34" id="radio23"/><label>e. 157,500 mm3</label><br/>
+            </p>
+            <hr/>    
+                
+            <label>35. </label>
+            <label>En un triángulo como el de la figura:</label>
+            <br><br><div id="ejercicio14"></div>
+            <p>
+                <input type="radio" name="radio35" id="radio23"/><label>a. La bisectriz y la mediana son iguales pero distintas a la altura correspondiente a la bas</label><br/>
+                <input type="radio" name="radio35" id="radio23"/><label>b. La altura correspondiente a la base es también mediana y bisectriz</label><br/>
+                <input type="radio" name="radio35" id="radio23"/><label>c. La altura correspondiente a la base es también mediana pero distinta a la bisectriz</label><br/>
+                <input type="radio" name="radio35" id="radio23"/><label>d. La altura correspondiente a la base es también bisectriz pero distinta a la mediana</label><br/>
+                <input type="radio" name="radio35" id="radio23"/><label>e. La altura correspondiente a la base es distinta a la mediana y a la bisectriz</label><br/>
+            </p>
+            <hr/>
+                
+              <label>36. </label>
+            <label>Un recipiente tarda en llenarse 40 minutos con la llave de agua fría abierta y 20 minutos si se llena con la de agua caliente. Si se vacía en 80 minutos, ¿cuánto tardará en llenarse con ambas llaves abiertas teniendo abierto el desagüe?
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio36" id="radio23"/><label>a. 7.5 minutos</label><br/>
+                <input type="radio" name="radio36" id="radio23"/><label>b. 9 minutos</label><br/>
+                <input type="radio" name="radio36" id="radio23"/><label>c. 12 minutos</label><br/>
+                <input type="radio" name="radio36" id="radio23"/><label>d. 16 minutos</label><br/>
+                <input type="radio" name="radio36" id="radio23"/><label>e. 16.5 minutos</label><br/>
+            </p>
+            <hr/>    
+                
+            <label>37. </label>
+            <label>  Relacione los números que aparecen en cada círculo y elija la opción que contiene el número faltante en el tercer círculo.
+            </label>
+            <br><br><div id="ejercicio15" ></div>
+            <p>
+                <input type="radio" name="radio37" id="radio23"/><label>a. 6</label><br/>
+                <input type="radio" name="radio37" id="radio23"/><label>b. 15</label><br/>
+                <input type="radio" name="radio37" id="radio23"/><label>c. 23</label><br/>
+                <input type="radio" name="radio37" id="radio23"/><label>d. 24</label><br/>
+                <input type="radio" name="radio37" id="radio23"/><label>e. 28</label><br/>
+            </p>
+            <hr/>     
+                
+            <label>38. </label>
+            <label> El valor de R varía en proporción directa con el de T; cuando R = 12, T = 60. ¿Cuál será el valor de R si T = 180?
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio38" id="radio23"/><label>a. 12</label><br/>
+                <input type="radio" name="radio38" id="radio23"/><label>b. 20</label><br/>
+                <input type="radio" name="radio38" id="radio23"/><label>c. 36</label><br/>
+                <input type="radio" name="radio38" id="radio23"/><label>d. 48</label><br/>
+                <input type="radio" name="radio38" id="radio23"/><label>e. 50</label><br/>
+            </p>
+            <hr/> 
+                
+                
+            <label>39. </label>
+            <label> Un jardín rectangular tiene el doble de largo que de ancho y su área mide 6,050 m2. ¿Cuáles son sus dimensiones?
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio39" id="radio23"/><label>a. 75 m por 37.5 m</label><br/>
+                <input type="radio" name="radio39" id="radio23"/><label>b. 85 m por 40 m</label><br/>
+                <input type="radio" name="radio39" id="radio23"/><label>c. 100 m por 50 m</label><br/>
+                <input type="radio" name="radio39" id="radio23"/><label>d. 90 m por 45 m</label><br/>
+                <input type="radio" name="radio39" id="radio23"/><label>e. 110 m por 55 m</label><br/>
+            </p>
+            <hr/>     
+                
+            <label>40. </label>
+            <label> ¿Cuál de los siguientes conjuntos de letras rompe la regularidad?
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio40" id="radio23"/><label>a. BCXY</label><br/>
+                <input type="radio" name="radio40" id="radio23"/><label>b. FGTU</label><br/>
+                <input type="radio" name="radio40" id="radio23"/><label>c. IJQR</label><br/>
+                <input type="radio" name="radio40" id="radio23"/><label>d. NOLM </label><br/>
+                <input type="radio" name="radio40" id="radio23"/><label>e. RSHI</label><br/>
+            </p>
+            <hr/> 
+                
+            <h1>CONOCIMIENTOS</h1> 
+                
+             <label>41. </label>
+            <label> Entre marzo y abril de 2003, tropas anglo-estadounidenses bombardearon el territorio iraquí, luego de que el presidente de este país islámico, Sadam Hussein, se negó a acatar el ultimátum del presidente de Estados Unidos de abandonar el país. La guerra de George W. Bush sólo fue apoyada abiertamente por el primer ministro británico,Tony Blair, y el jefe de gobierno español, José María Aznar, incluso sin el aval de la ONU. Los resultados de esa llamada primera guerra del siglo XXI han sido devastadores. Identifique en el mapa los números cuya línea señala a Irak ___ y a Estados Unidos ___.
+            </label>
+            <br><br><div id="ejercicio16" ></div>
+            <p>
+                <input type="radio" name="radio41" id="radio23"/><label>a. 3, 1</label><br/>
+                <input type="radio" name="radio41" id="radio23"/><label>b. 6, 2</label><br/>
+                <input type="radio" name="radio41" id="radio23"/><label>c. 4, 1</label><br/>
+                <input type="radio" name="radio41" id="radio23"/><label>d. 4, 2 </label><br/>
+                <input type="radio" name="radio41" id="radio23"/><label>e. 5, 1</label><br/>
+            </p>
+            <hr/>  
+                
+            <label>42. </label>
+            <label>¿Qué promueve la UNESCO?
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio42" id="radio23"/><label>a. La paz y el bienestar social</label><br/>
+                <input type="radio" name="radio42" id="radio23"/><label>b. La economía y el capital social</label><br/>
+                <input type="radio" name="radio42" id="radio23"/><label>c. La educación, la ciencia y la cultura</label><br/>
+                <input type="radio" name="radio42" id="radio23"/><label>d. La salud y la educación</label><br/>
+                <input type="radio" name="radio42" id="radio23"/><label>e. La sabiduría y el manejo de información</label><br/>
+            </p>
+            <hr/>  
+                
+            <label>43. </label>
+            <label>La navegación a vela se ha practicado desde el año 3,000 a. C.,empleando como fuente de energía la:
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio43" id="radio23"/><label>a. eólica</label><br/>
+                <input type="radio" name="radio43" id="radio23"/><label>b. hidráulica</label><br/>
+                <input type="radio" name="radio43" id="radio23"/><label>c. solar</label><br/>
+                <input type="radio" name="radio43" id="radio23"/><label>d. térmica</label><br/>
+                <input type="radio" name="radio43" id="radio23"/><label>e. hidrostática</label><br/>
+            </p>
+            <hr/>    
+                
+            <label>44. </label>
+            <label>Con alguna frecuencia se presentan brotes de dengueen algunas regiones del país; el principal vector que lo transmite es:
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio44" id="radio23"/><label>a. la rata</label><br/>
+                <input type="radio" name="radio44" id="radio23"/><label>b. el mosquito Anophele</label><br/>
+                <input type="radio" name="radio44" id="radio23"/><label>c. la mosca doméstica</label><br/>
+                <input type="radio" name="radio44" id="radio23"/><label>d. la cucaracha</label><br/>
+                <input type="radio" name="radio44" id="radio23"/><label>e. el mosquito Aedes</label><br/>
+            </p>
+            <hr/>  
+                
+            <label>45. </label>
+            <label>Los componentes de una computadora se pueden dividir en duros (hardware) y blandos (software). Un ejemplo de software es el:
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio45" id="radio23"/><label>a. teclado</label><br/>
+                <input type="radio" name="radio45" id="radio23"/><label>b. disco flexible</label><br/>
+                <input type="radio" name="radio45" id="radio23"/><label>c. sistema operativo</label><br/>
+                <input type="radio" name="radio45" id="radio23"/><label>d. monitor</label><br/>
+                <input type="radio" name="radio45" id="radio23"/><label>e. disco duro</label><br/>
+            </p>
+            <hr/> 
+                
+            <label>46. </label>
+            <label>Puede erradicarse o bajar al mínimo la frecuencia del cáncer de ______, ya que se cuenta con la prueba de Papanicolau.
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio46" id="radio23"/><label>a. mama</label><br/>
+                <input type="radio" name="radio46" id="radio23"/><label>b. colon</label><br/>
+                <input type="radio" name="radio46" id="radio23"/><label>c. cuello del útero</label><br/>
+                <input type="radio" name="radio46" id="radio23"/><label>d. próstata</label><br/>
+                <input type="radio" name="radio46" id="radio23"/><label>e. hígado</label><br/>
+            </p>
+            <hr/>  
+                
+                
+             <label>47. </label>
+            <label>_____________ almacena de manera temporal los datos con los que está trabajando la computadora.
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio47" id="radio23"/><label>a. La memoria ROM</label><br/>
+                <input type="radio" name="radio47" id="radio23"/><label>b. La memoria RAM</label><br/>
+                <input type="radio" name="radio47" id="radio23"/><label>c. El sistema operativo</label><br/>
+                <input type="radio" name="radio47" id="radio23"/><label>d. El disco duro</label><br/>
+                <input type="radio" name="radio47" id="radio23"/><label>e. El disquete</label><br/>
+            </p>
+            <hr/>  
+                
+            <label>48. </label>
+            <label>A partir del 2002 los controles de inmigración estadounidenses se hicieron más rigurosos a causa de uno de los siguientes sucesos:
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio48" id="radio23"/><label>a. la explosión del transbordador Columbia</label><br/>
+                <input type="radio" name="radio48" id="radio23"/><label>b. el atentado al World Trade Center de Nueva York</label><br/>
+                <input type="radio" name="radio48" id="radio23"/><label>c. la destrucción de un edificio de oficinas gubernamentales en Oklahoma </label><br/>
+                <input type="radio" name="radio48" id="radio23"/><label>d. el incremento del narcotráfico </label><br/>
+                <input type="radio" name="radio48" id="radio23"/><label>e.  la entrada de terroristas árabes
+</label><br/>
+            </p>
+            <hr/>
+                
+                
+            <label>49. </label>
+            <label>Seleccione la opción que presenta los siguientes acontecimientos en orden cronológico (del más antiguo al más reciente). 
+              <br>  1. Se inventa el disco compacto (CD) 
+            <br>    2. Se construye el primer reactor nuclear 
+            <br>    3. Se inventa la TV a color 
+            <br>    4. Se inventa el nylon 
+            <br>    5. Se utiliza la fibra óptica para transmitir datos
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio49" id="radio23"/><label>a. 3, 5, 4, 1, 2</label><br/>
+                <input type="radio" name="radio49" id="radio23"/><label>b. 2, 3, 4, 1, 5 </label><br/>
+                <input type="radio" name="radio49" id="radio23"/><label>c. 3, 2, 4, 5, 1 </label><br/>
+                <input type="radio" name="radio49" id="radio23"/><label>d. 4, 3, 2, 5, 1</label><br/>
+                <input type="radio" name="radio49" id="radio23"/><label>e. 3, 4, 5, 1, 2</label><br/>
+            </p>
+            <hr/>     
+                
+                
+            <label>50. </label>
+            <label>El uso de servidores es indispensable para:
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio50" id="radio23"/><label>a. manejar cualquier computadora</label><br/>
+                <input type="radio" name="radio50" id="radio23"/><label>b. utilizar el sistema operativo DOS</label><br/>
+                <input type="radio" name="radio50" id="radio23"/><label>c. enviar un mensaje por fax </label><br/>
+                <input type="radio" name="radio50" id="radio23"/><label>d. utilizar internet</label><br/>
+                <input type="radio" name="radio50" id="radio23"/><label>e. recibir un fax por computadora</label><br/>
+            </p>
+            <hr/>  
+                
+             <label>51. </label>
+            <label>El ___________ es un dispositivo capaz de convertir una señal digital (compatible con la computadora) en una señal analógica que puede ser transmitida telefónicamente.
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio51" id="radio23"/><label>a. network</label><br/>
+                <input type="radio" name="radio51" id="radio23"/><label>b. fax</label><br/>
+                <input type="radio" name="radio51" id="radio23"/><label>c. interfaz </label><br/>
+                <input type="radio" name="radio51" id="radio23"/><label>d. módem</label><br/>
+                <input type="radio" name="radio51" id="radio23"/><label>e. e-mail</label><br/>
+            </p>
+            <hr/> 
+                
+                
+            <label>52. </label>
+            <label>Fue uno de los mejores futbolistas de fines del siglo XX. Hoy,después de graves problemas de drogadicción, se ha incorporado a una vida sana y activa.
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio52" id="radio23"/><label>a. Lev Yashin (La araña)</label><br/>
+                <input type="radio" name="radio52" id="radio23"/><label>b. Bobby Charlton</label><br/>
+                <input type="radio" name="radio52" id="radio23"/><label>c. Diego Armando Maradona</label><br/>
+                <input type="radio" name="radio52" id="radio23"/><label>d. Edson Arantes do Nascimento (Pelé)</label><br/>
+                <input type="radio" name="radio52" id="radio23"/><label>e. Franz Beckenbauer (El Kaiser)</label><br/>
+            </p>
+            <hr/>
+                
+             <label>53. </label>
+            <label>Recientemente ha sido calificada la ___________ como un padecimiento fisiológico que puede ser tratado con drogas como el Prozac.
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio53" id="radio23"/><label>a. sífilis</label><br/>
+                <input type="radio" name="radio53" id="radio23"/><label>b. depresión</label><br/>
+                <input type="radio" name="radio53" id="radio23"/><label>c. hipertensión</label><br/>
+                <input type="radio" name="radio53" id="radio23"/><label>d. dipsomanía</label><br/>
+                <input type="radio" name="radio53" id="radio23"/><label>e. adicción al tabaco</label><br/>
+            </p>
+            <hr/>
+                
+            <label>54. </label>
+            <label>El ___ está relacionado con el régimen impositivo de Hacienda que se aplica a la mayoría de productos de consumo y a los servicios.
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio54" id="radio23"/><label>a. SAR</label><br/>
+                <input type="radio" name="radio54" id="radio23"/><label>b. ISR</label><br/>
+                <input type="radio" name="radio54" id="radio23"/><label>c. RFC</label><br/>
+                <input type="radio" name="radio54" id="radio23"/><label>d. IVA</label><br/>
+                <input type="radio" name="radio54" id="radio23"/><label>e. ISPT</label><br/>
+            </p>
+            <hr/>
+                
+            <label>55. </label>
+            <label>Es un método anticonceptivo que evita el paso del óvulo hacia el útero, obstruyendo a la vez el paso de los espermatozoides
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio55" id="radio23"/><label>a. Vasectomía</label><br/>
+                <input type="radio" name="radio55" id="radio23"/><label>b. Método del ritmo</label><br/>
+                <input type="radio" name="radio55" id="radio23"/><label>c. Dispositivo intrauterino</label><br/>
+                <input type="radio" name="radio55" id="radio23"/><label>d. Método del coitus interruptus</label><br/>
+                <input type="radio" name="radio55" id="radio23"/><label>e. Ligadura de trompas uterinas</label><br/>
+            </p>
+            <hr/>   
+                
+            <label>56. </label>
+            <label>_____________ son un dispositivo en el que se encuentran casi todos los componentes electrónicos necesarios para realizar alguna función.
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio56" id="radio23"/><label>a. Los floppies</label><br/>
+                <input type="radio" name="radio56" id="radio23"/><label>b. Los bulbos</label><br/>
+                <input type="radio" name="radio56" id="radio23"/><label>c. Las unidades de disco</label><br/>
+                <input type="radio" name="radio56" id="radio23"/><label>d. Los dispositivos de entrada</label><br/>
+                <input type="radio" name="radio56" id="radio23"/><label>e. Los circuitos integrados</label><br/>
+            </p>
+            <hr/>     
+                
+            <label>57. </label>
+            <label>La velocidad del sonido en el vacío absoluto y a una temperatura constante es de alrededor de:
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio57" id="radio23"/><label>a. 300 000 km/s </label><br/>
+                <input type="radio" name="radio57" id="radio23"/><label>b. 330 m/s</label><br/>
+                <input type="radio" name="radio57" id="radio23"/><label>c. 5 000 m/s </label><br/>
+                <input type="radio" name="radio57" id="radio23"/><label>d. Cero m/s</label><br/>
+                <input type="radio" name="radio57" id="radio23"/><label>e. 1 450 m/s
+</label><br/>
+            </p>
+            <hr/>  
+                
+            
+            <label>58. </label>
+            <label>Un foco con filamento de tungsteno enciende debido a que:
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio58" id="radio23"/><label>a. con el calor, los electrones se orientan en un solo sentido</label><br/>
+                <input type="radio" name="radio58" id="radio23"/><label>b. el filamento se calienta porque opone resistencia al flujo eléctrico</label><br/>
+                <input type="radio" name="radio58" id="radio23"/><label>c. al circular libremente, los electrones chocan entre sí y desprenden energía</label><br/>
+                <input type="radio" name="radio58" id="radio23"/><label>d. el flujo eléctrico se mantiene constante en ambos sentidos</label><br/>
+                <input type="radio" name="radio58" id="radio23"/><label>e. el flujo eléctrico se mantiene constante en un solo sentido</label><br/>
+            </p>
+            <hr/>     
+                
+            <label>59. </label>
+            <label>En física se le llama ___________ al fenómeno que se produce al coincidir la frecuencia propia de un sistema mecánico o eléctrico con la frecuencia de una excitación externa.
+            </label>
+            <br><br>
+            <p>
+                <input type="radio" name="radio59" id="radio23"/><label>a. resonancia</label><br/>
+                <input type="radio" name="radio59" id="radio23"/><label>b. radiancia</label><br/>
+                <input type="radio" name="radio59" id="radio23"/><label>c. radiactividad</label><br/>
+                <input type="radio" name="radio59" id="radio23"/><label>d. electronegatividad </label><br/>
+                <input type="radio" name="radio59" id="radio23"/><label>e. ionización</label><br/>
+            </p>
+            <hr/>    
+                
+             <label>60. </label>
+            <label>La siguiente gráfica puede expresar los planteamientos que contiene la teoría expuesta por:
+            </label><div id="ejercicio17" ></div>
+            <br><br>
+            <p>
+                <input type="radio" name="radio59" id="radio23"/><label>a. Johann Mendel </label><br/>
+                <input type="radio" name="radio59" id="radio23"/><label>b. Charles Darwin </label><br/>
+                <input type="radio" name="radio59" id="radio23"/><label>c. Thomas Malthus</label><br/>
+                <input type="radio" name="radio59" id="radio23"/><label>d. Max Weber</label><br/>
+                <input type="radio" name="radio59" id="radio23"/><label>e. Karl Marx</label><br/>
+            </p>
+            <hr/>     
+                
+            </caja>
+				<p>Nombre</p>
+				<input type="text" name="nombre" placeholder="Nombre" required>
+            
+				<p>Correo Electronico</p>
+				<input type="email" name="correo" placeholder="alguien@algo.com" required>
+            
+				<p>Mensaje</p>
+				<textarea name="mensaje" placeholder="Mensaje" required></textarea>
+				<br>
+				<br>
+            <input type="button" name="result" id="result" value="Resultado" onclick="cont()"/>
+        </form>
+    </body>
+</html>

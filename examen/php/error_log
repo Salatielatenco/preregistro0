@@ -1,0 +1,36 @@
+[07-Aug-2020 00:46:45 America/Mexico_City] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tecmilpa/public_html/examen/php/conexion.php on line 7
+[07-Aug-2020 00:46:45 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/tecmilpa/public_html/examen/php/login.php on line 13
+[07-Aug-2020 00:46:45 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/tecmilpa/public_html/examen/php/login.php on line 15
+[07-Aug-2020 00:47:09 America/Mexico_City] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tecmilpa/public_html/examen/php/conexion.php on line 7
+[07-Aug-2020 00:47:09 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/tecmilpa/public_html/examen/php/login.php on line 13
+[07-Aug-2020 00:47:09 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/tecmilpa/public_html/examen/php/login.php on line 15
+[07-Aug-2020 00:47:18 America/Mexico_City] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tecmilpa/public_html/examen/php/conexion.php on line 7
+[07-Aug-2020 00:47:18 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/tecmilpa/public_html/examen/php/login.php on line 13
+[07-Aug-2020 00:47:18 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/tecmilpa/public_html/examen/php/login.php on line 15
+[07-Aug-2020 00:48:47 America/Mexico_City] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tecmilpa/public_html/examen/php/conexion.php on line 7
+[07-Aug-2020 00:48:47 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/tecmilpa/public_html/examen/php/login.php on line 13
+[07-Aug-2020 00:48:47 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/tecmilpa/public_html/examen/php/login.php on line 15
+[07-Aug-2020 00:48:58 America/Mexico_City] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tecmilpa/public_html/examen/php/conexion.php on line 7
+[07-Aug-2020 00:48:58 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/tecmilpa/public_html/examen/php/login.php on line 13
+[07-Aug-2020 00:48:58 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/tecmilpa/public_html/examen/php/login.php on line 15
+[07-Aug-2020 00:50:13 America/Mexico_City] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tecmilpa/public_html/examen/php/conexion.php on line 7
+[07-Aug-2020 00:50:13 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/tecmilpa/public_html/examen/php/login.php on line 13
+[07-Aug-2020 00:50:13 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/tecmilpa/public_html/examen/php/login.php on line 15
+[07-Aug-2020 00:50:19 America/Mexico_City] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tecmilpa/public_html/examen/php/conexion.php on line 7
+[07-Aug-2020 00:50:19 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/tecmilpa/public_html/examen/php/login.php on line 13
+[07-Aug-2020 00:50:19 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/tecmilpa/public_html/examen/php/login.php on line 15
+[07-Aug-2020 00:50:31 America/Mexico_City] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tecmilpa/public_html/examen/php/conexion.php on line 7
+[07-Aug-2020 00:50:31 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/tecmilpa/public_html/examen/php/login.php on line 13
+[07-Aug-2020 00:50:31 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/tecmilpa/public_html/examen/php/login.php on line 15
+[07-Aug-2020 00:51:26 America/Mexico_City] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tecmilpa/public_html/examen/php/conexion.php on line 7
+[07-Aug-2020 00:51:26 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/tecmilpa/public_html/examen/php/login.php on line 13
+[07-Aug-2020 00:51:26 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/tecmilpa/public_html/examen/php/login.php on line 15
+[07-Aug-2020 00:51:37 America/Mexico_City] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tecmilpa/public_html/examen/php/conexion.php on line 7
+[07-Aug-2020 00:51:37 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/tecmilpa/public_html/examen/php/login.php on line 13
+[07-Aug-2020 00:51:37 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/tecmilpa/public_html/examen/php/login.php on line 15
+[07-Aug-2020 00:52:29 America/Mexico_City] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tecmilpa/public_html/examen/php/conexion.php on line 7
+[07-Aug-2020 00:52:29 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/tecmilpa/public_html/examen/php/login.php on line 13
+[07-Aug-2020 00:52:29 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/tecmilpa/public_html/examen/php/login.php on line 15
+[07-Aug-2020 00:52:36 America/Mexico_City] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/tecmilpa/public_html/examen/php/conexion.php on line 7
+[07-Aug-2020 00:52:36 America/Mexico_City] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/tecmilpa/public_html/examen/php/login.php on line 13
+[07-Aug-2020 00:52:36 America/Mexico_City] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/tecmilpa/public_html/examen/php/login.php on line 15
